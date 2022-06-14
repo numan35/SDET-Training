@@ -1,0 +1,12 @@
+package training1;
+
+public class switchStatement {
+
+	public static void main(String[] args) {
+		// execute different block of a code based on the value of a condition
+		
+		
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package training1;
+
+public class arrays {
+
+	public static void main(String[] args) {
+		// Declare and define an array
+		
+		String[] cities= {"New York", "Atlanta", "Miami", "Houstan", "San Francisco"};
+		System.out.println(cities);
+	}
+
+}

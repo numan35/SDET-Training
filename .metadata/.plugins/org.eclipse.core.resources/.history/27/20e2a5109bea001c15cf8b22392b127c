@@ -1,0 +1,49 @@
+package oop;
+
+public class bankAccount {
+	
+	// Define variables
+	String accountNumber;
+	static final String routingNumber = "64839874";
+	String name;
+	String ssn;
+	String accountType;
+	
+	
+	// Constructors
+	bankAccount(){
+		System.out.println("NEW AACOUNT CREATED");
+	}
+	// Overloading the same method name with different args
+	bankAccount(String accountType){
+		System.out.println("NEW ACCOUNT "+ accountType);
+	}
+	bankAccount(String accountType, double initDeposit){
+		System.out.println("NEW ACCOUNT "+ accountType);
+		System.out.println("INITIAL DEPOSIT OF:$"+ initDeposit);
+		String Msg=null;
+		if(initDeposit<1000) {
+			Msg="ERROR: Minimum deposit must be at least $1,000";
+			System.out.println(Msg);
+		}else {
+			Msg="Thanks for our initial deposit of $" + initDeposit;
+		}
+		System.out.println(Msg);
+	}
+	
+	
+	// Define methods
+	void deposit() {
+		
+	}
+	void withdraw() {
+		
+	}
+	void checkBalance() {
+		
+	}
+	void getStatus() {
+		
+	}
+	
+}

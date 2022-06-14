@@ -1,0 +1,24 @@
+package training1;
+
+public class Assignment {
+
+	public static void main(String[] args) {
+		// 1) Write a function that takes a value n returns the sum of numbers 1 to n
+		// addUp(1)=1
+		// addUp(2)=1+2=3
+		// addUp(3)=1+2+3=6
+		// addUp(4)=1+2+3+4=10
+		
+		System.out.println(addUp(5));
+		
+		
+	}
+	
+	public static int addUp(int n) {
+		for(n=1; n>0; n++) {
+			
+		}
+		return n;
+	}
+
+}

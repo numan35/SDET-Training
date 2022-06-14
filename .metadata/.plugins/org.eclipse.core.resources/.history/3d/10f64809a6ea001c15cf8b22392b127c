@@ -1,0 +1,81 @@
+package oop;
+
+public class bankAccount {
+	
+	// Define variables
+	
+	// Instance variables
+	String accountNumber;
+	static final String routingNumber = "64839874";
+	String name;
+	String ssn;
+	String accountType;
+	double balance=0;
+	
+	// Constructors
+	bankAccount(){
+		System.out.println("NEW AACOUNT CREATED");
+	}
+	// Overloading the same method name with different args
+	bankAccount(String accountType){
+		System.out.println("NEW ACCOUNT "+ accountType);
+	}
+	bankAccount(String accountType, double initDeposit){
+		// Msg, initDeposit, accountType are all local variables
+		System.out.println("NEW ACCOUNT "+ accountType);
+		System.out.println("INITIAL DEPOSIT OF:$"+ initDeposit);
+		String Msg=null;
+		if(initDeposit<1000) {
+			Msg="ERROR: Minimum deposit must be at least $1,000";
+			System.out.println(Msg);
+		}else {
+			Msg="Thanks for our initial deposit of $" + initDeposit;
+		}
+		System.out.println(Msg);
+		balance=balance+initDeposit;
+	}
+	
+	
+	// Define methods
+	void deposit() {
+		
+	}
+	void withdraw() {
+		
+	}
+	void checkBalance() {
+		System.out.println("Balance: "+ balance);
+	}
+	void getStatus() {
+		
+	}
+	
+	@Override
+	public String toString() {
+		return "[ " + name + ". " + accountNumber + ". BALANCE: $" + balance +" ]"; 
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

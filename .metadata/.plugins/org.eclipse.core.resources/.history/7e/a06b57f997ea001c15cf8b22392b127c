@@ -1,0 +1,15 @@
+package oop;
+
+public class bankAccountApp {
+
+	public static void main(String[] args) {
+		// Creating a new bank account >> think instantiate an object
+		
+		bankAccount acct1=new bankAccount();
+		acct1.toString();
+		
+		bankAccount acct2=new bankAccount("SAVINGS");
+		bankAccount acct3=new bankAccount("SAVINGS", 5000);
+	}
+
+}

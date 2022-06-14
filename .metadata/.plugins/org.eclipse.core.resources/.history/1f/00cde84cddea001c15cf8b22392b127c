@@ -1,0 +1,64 @@
+package oop;
+
+
+
+public class StudentDatabase {
+
+		private static String id="jklnoi";
+		
+		
+		
+		
+		
+		int min=1000;
+		int max=9000;
+		
+		int randomInt=(int)Math.floor(Math.random()*(max-min+1)+min);
+		
+		
+	
+		void enroll() {
+			
+		}
+		
+		void pay() {
+			
+		}
+		
+		void checkBalance() {
+			
+		}
+		
+		
+		void showCourses() {
+			System.out.println("Courses are shown.");
+		}
+		
+		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

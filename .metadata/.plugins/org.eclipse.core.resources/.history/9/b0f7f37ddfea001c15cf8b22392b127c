@@ -1,0 +1,42 @@
+package oop;
+
+
+
+public class StudentDatabase {
+	
+	public static void main(String[] args) {
+
+		
+		NewStudent student1=new NewStudent("Ahmet", "12345678");
+		
+		
+		
+		
+		
+		
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
